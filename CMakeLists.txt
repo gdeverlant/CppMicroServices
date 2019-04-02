@@ -589,7 +589,7 @@ configure_file(
   @ONLY
   )
 
-add_subdirectory(tools/rc)
+add_subdirectory(exes/rc)
 
 export(TARGETS ${US_RCC_EXECUTABLE_TARGET}
        FILE ${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}Targets.cmake)
@@ -605,7 +605,7 @@ add_subdirectory(httpservice)
 add_subdirectory(webconsole)
 add_subdirectory(shellservice)
 
-add_subdirectory(tools/shell)
+add_subdirectory(exes/shell)
 
 
 #-----------------------------------------------------------------------------
