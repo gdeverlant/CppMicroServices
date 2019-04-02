@@ -596,7 +596,7 @@ export(TARGETS ${US_RCC_EXECUTABLE_TARGET}
 
 message(STATUS "CMAKE_BINARY_DIR = ${CMAKE_BINARY_DIR}")
 # Preparing the compilation path that will be used in the exes targets.
-set(OVERRIDED_EXES_PATH "tools/${PROJECT_NAME_LOWER}${US_GLOBAL_VERSION_SUFFIX}")
+set(OVERRIDED_EXES_PATH "tools/${PROJECT_NAME_LOWER}")
 message(STATUS "OVERRIDED_EXES_PATH = ${OVERRIDED_EXES_PATH}")
 
 add_subdirectory(util)
